@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81409ee0362ae7f448942e98f1d97623, type: 3}
+  m_Name: Dino_eat
+  m_EditorClassIdentifier: 
+  id: bdb539d23f5be804796bdd21c7c1c011
+  stickerName: dino_sticker_2
+  price: 180
+  stickerImage: {fileID: -2575012008948900647, guid: ec14cfcace1a23f40afd320229443219,
+    type: 3}
+  series: 4
+  isUnlocked: 0

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81409ee0362ae7f448942e98f1d97623, type: 3}
+  m_Name: School_book
+  m_EditorClassIdentifier: 
+  id: 2a8bfe4bdca515145b427afb18ecbca4
+  stickerName: school_stickers_2
+  price: 200
+  stickerImage: {fileID: -8873988405258410720, guid: b340a9559355d564d993bd54e9ee4dfd,
+    type: 3}
+  series: 2
+  isUnlocked: 0

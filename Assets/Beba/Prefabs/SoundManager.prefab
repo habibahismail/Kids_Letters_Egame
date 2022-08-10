@@ -1,0 +1,1360 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &261395234258147847
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 282174700805402665}
+  - component: {fileID: 3526691757751502988}
+  m_Layer: 0
+  m_Name: 'SFX AudioSource '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &282174700805402665
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 261395234258147847}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3806183618650685585}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &3526691757751502988
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 261395234258147847}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!1 &3806183617575802066
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3806183617575802076}
+  - component: {fileID: 3806183617575802077}
+  m_Layer: 0
+  m_Name: UI Audio Source
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3806183617575802076
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3806183617575802066}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3806183618650685585}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &3806183617575802077
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3806183617575802066}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!1 &3806183618650685591
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3806183618650685585}
+  - component: {fileID: 3806183618650685590}
+  m_Layer: 0
+  m_Name: SoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3806183618650685585
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3806183618650685591}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 531.34534, y: 330.6987, z: -236.075}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3806183619362461652}
+  - {fileID: 3806183619503991033}
+  - {fileID: 3806183617575802076}
+  - {fileID: 282174700805402665}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3806183618650685590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3806183618650685591}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f80936a2dfa47cb49b211dbe6b713425, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundEvents:
+  - Name: A_namaHuruf
+    AudioSource: {fileID: 3806183619362461653}
+    AudioClips:
+    - {fileID: 8300000, guid: e7abd6df4a302284397ba3b01d3d0f29, type: 3}
+    Output: {fileID: -1597818409009808443, guid: 2f251a96c7a2cc642b77e28dee1310f1,
+      type: 2}
+    MinVolume: 1
+    MaxVolume: 1
+    MinPitch: 0.96
+    MaxPitch: 1.03
+    StereoPan: 0
+    DelayTime: 0
+    RandomizeDelay: 0
+    AvoidRepeat: 0
+    Delay: 0
+    Loop: 0
+    RandomizeLoop: 0
+    PlayOnAwake: 0
+    Mute: 0
+    PlayCalled: 0
+  - Name: B_namaHuruf
+    AudioSource: {fileID: 3806183619362461653}
+    AudioClips:
+    - {fileID: 8300000, guid: a92851a08098449449f58bf490540eeb, type: 3}
+    Output: {fileID: -1597818409009808443, guid: 2f251a96c7a2cc642b77e28dee1310f1,
+      type: 2}
+    MinVolume: 1
+    MaxVolume: 1
+    MinPitch: 0.96
+    MaxPitch: 1
+    StereoPan: 0
+    DelayTime: 0
+    RandomizeDelay: 0
+    AvoidRepeat: 0
+    Delay: 0
+    Loop: 0
+    RandomizeLoop: 0
+    PlayOnAwake: 0
+    Mute: 0
+    PlayCalled: 0
+  - Name: C_namaHuruf
+    AudioSource: {fileID: 3806183619362461653}
+    AudioClips:
+    - {fileID: 8300000, guid: 99a2dbc3b20988f4793f05131354599b, type: 3}
+    Output: {fileID: -1597818409009808443, guid: 2f251a96c7a2cc642b77e28dee1310f1,
+      type: 2}
+    MinVolume: 1
+    MaxVolume: 1
+    MinPitch: 0.96
+    MaxPitch: 1
+    StereoPan: 0
+    DelayTime: 0
+    RandomizeDelay: 0
+    AvoidRepeat: 0
+    Delay: 0
+    Loop: 0
+    RandomizeLoop: 0
+    PlayOnAwake: 0
+    Mute: 0
+    PlayCalled: 0
+  - Name: D_namaHuruf
+    AudioSource: {fileID: 3806183619362461653}
+    AudioClips:
+    - {fileID: 8300000, guid: 3cba0503f05e65049be73412dc093cd5, type: 3}
+    Output: {fileID: -1597818409009808443, guid: 2f251a96c7a2cc642b77e28dee1310f1,
+      type: 2}
+    MinVolume: 1
+    MaxVolume: 1
+    MinPitch: 0.96
+    MaxPitch: 1
+    StereoPan: 0
+    DelayTime: 0
+    RandomizeDelay: 0
+    AvoidRepeat: 0
+    Delay: 0
+    Loop: 0
+    RandomizeLoop: 0
+    PlayOnAwake: 0
+    Mute: 0
+    PlayCalled: 0
+  - Name: E_namaHuruf
+    AudioSource: {fileID: 3806183619362461653}
+    AudioClips:
+    - {fileID: 8300000, guid: b7c3a3acbf31db74d82d69f1f92a813c, type: 3}
+    Output: {fileID: -1597818409009808443, guid: 2f251a96c7a2cc642b77e28dee1310f1,
+      type: 2}
+    MinVolume: 1
+    MaxVolume: 1
+    MinPitch: 0.96
+    MaxPitch: 1
+    StereoPan: 0
+    DelayTime: 0
+    RandomizeDelay: 0
+    AvoidRepeat: 0
+    Delay: 0
+    Loop: 0
+    RandomizeLoop: 0
+    PlayOnAwake: 0
+    Mute: 0
+    PlayCalled: 0
+  - Name: F_namaHuruf
+    AudioSource: {fileID: 3806183619362461653}
+    AudioClips:
+    - {fileID: 8300000, guid: ac4b8c08259cac945bfab585e9f27ae1, type: 3}
+    Output: {fileID: -1597818409009808443, guid: 2f251a96c7a2cc642b77e28dee1310f1,
+      type: 2}
+    MinVolume: 1
+    MaxVolume: 1
+    MinPitch: 0.96
+    MaxPitch: 1
+    StereoPan: 0
+    DelayTime: 0
+    RandomizeDelay: 0
+    AvoidRepeat: 0
+    Delay: 0
+    Loop: 0
+    RandomizeLoop: 0
+    PlayOnAwake: 0
+    Mute: 0
+    PlayCalled: 0
+  - Name: G_namaHuruf
+    AudioSource: {fileID: 3806183619362461653}
+    AudioClips:
+    - {fileID: 8300000, guid: 8921e59e9cd66b049ab9b81b1f2e48e8, type: 3}
+    Output: {fileID: -1597818409009808443, guid: 2f251a96c7a2cc642b77e28dee1310f1,
+      type: 2}
+    MinVolume: 1
+    MaxVolume: 1
+    MinPitch: 0.96
+    MaxPitch: 1
+    StereoPan: 0
+    DelayTime: 0
+    RandomizeDelay: 0
+    AvoidRepeat: 0
+    Delay: 0
+    Loop: 0
+    RandomizeLoop: 0
+    PlayOnAwake: 0
+    Mute: 0
+    PlayCalled: 0
+  - Name: H_namaHuruf
+    AudioSource: {fileID: 3806183619362461653}
+    AudioClips:
+    - {fileID: 8300000, guid: 81db07672b5201243bc83670a5cbf1ef, type: 3}
+    Output: {fileID: -1597818409009808443, guid: 2f251a96c7a2cc642b77e28dee1310f1,
+      type: 2}
+    MinVolume: 1
+    MaxVolume: 1
+    MinPitch: 0.96
+    MaxPitch: 1
+    StereoPan: 0
+    DelayTime: 0
+    RandomizeDelay: 0
+    AvoidRepeat: 0
+    Delay: 0
+    Loop: 0
+    RandomizeLoop: 0
+    PlayOnAwake: 0
+    Mute: 0
+    PlayCalled: 0
+  - Name: I_namaHuruf
+    AudioSource: {fileID: 3806183619362461653}
+    AudioClips:
+    - {fileID: 8300000, guid: e12155eb51c48e44e8878c6740cf81c1, type: 3}
+    Output: {fileID: -1597818409009808443, guid: 2f251a96c7a2cc642b77e28dee1310f1,
+      type: 2}
+    MinVolume: 1
+    MaxVolume: 1
+    MinPitch: 0.96
+    MaxPitch: 1
+    StereoPan: 0
+    DelayTime: 0
+    RandomizeDelay: 0
+    AvoidRepeat: 0
+    Delay: 0
+    Loop: 0
+    RandomizeLoop: 0
+    PlayOnAwake: 0
+    Mute: 0
+    PlayCalled: 0
+  - Name: J_namaHuruf
+    AudioSource: {fileID: 3806183619362461653}
+    AudioClips:
+    - {fileID: 8300000, guid: 3840a077559418e4ab7e9ad3ee6b10d4, type: 3}
+    Output: {fileID: -1597818409009808443, guid: 2f251a96c7a2cc642b77e28dee1310f1,
+      type: 2}
+    MinVolume: 1
+    MaxVolume: 1
+    MinPitch: 0.96
+    MaxPitch: 1
+    StereoPan: 0
+    DelayTime: 0
+    RandomizeDelay: 0
+    AvoidRepeat: 0
+    Delay: 0
+    Loop: 0
+    RandomizeLoop: 0
+    PlayOnAwake: 0
+    Mute: 0
+    PlayCalled: 0
+  - Name: K_namaHuruf
+    AudioSource: {fileID: 3806183619362461653}
+    AudioClips:
+    - {fileID: 8300000, guid: 4176da1eacb2a9b4790fefd1ee28d6c9, type: 3}
+    Output: {fileID: -1597818409009808443, guid: 2f251a96c7a2cc642b77e28dee1310f1,
+      type: 2}
+    MinVolume: 1
+    MaxVolume: 1
+    MinPitch: 0.96
+    MaxPitch: 1
+    StereoPan: 0
+    DelayTime: 0
+    RandomizeDelay: 0
+    AvoidRepeat: 0
+    Delay: 0
+    Loop: 0
+    RandomizeLoop: 0
+    PlayOnAwake: 0
+    Mute: 0
+    PlayCalled: 0
+  - Name: L_namaHuruf
+    AudioSource: {fileID: 3806183619362461653}
+    AudioClips:
+    - {fileID: 8300000, guid: a39ba9eab5937b844a5643d456205679, type: 3}
+    Output: {fileID: -1597818409009808443, guid: 2f251a96c7a2cc642b77e28dee1310f1,
+      type: 2}
+    MinVolume: 1
+    MaxVolume: 1
+    MinPitch: 0.96
+    MaxPitch: 1
+    StereoPan: 0
+    DelayTime: 0
+    RandomizeDelay: 0
+    AvoidRepeat: 0
+    Delay: 0
+    Loop: 0
+    RandomizeLoop: 0
+    PlayOnAwake: 0
+    Mute: 0
+    PlayCalled: 0
+  - Name: M_namaHuruf
+    AudioSource: {fileID: 3806183619362461653}
+    AudioClips:
+    - {fileID: 8300000, guid: d6b7960b5bdb73f478ceb260295307df, type: 3}
+    Output: {fileID: -1597818409009808443, guid: 2f251a96c7a2cc642b77e28dee1310f1,
+      type: 2}
+    MinVolume: 1
+    MaxVolume: 1
+    MinPitch: 0.96
+    MaxPitch: 1
+    StereoPan: 0
+    DelayTime: 0
+    RandomizeDelay: 0
+    AvoidRepeat: 0
+    Delay: 0
+    Loop: 0
+    RandomizeLoop: 0
+    PlayOnAwake: 0
+    Mute: 0
+    PlayCalled: 0
+  - Name: N_namaHuruf
+    AudioSource: {fileID: 3806183619362461653}
+    AudioClips:
+    - {fileID: 8300000, guid: 5e034401ec895034a977cfaa33fd8c88, type: 3}
+    Output: {fileID: -1597818409009808443, guid: 2f251a96c7a2cc642b77e28dee1310f1,
+      type: 2}
+    MinVolume: 1
+    MaxVolume: 1
+    MinPitch: 0.96
+    MaxPitch: 1
+    StereoPan: 0
+    DelayTime: 0
+    RandomizeDelay: 0
+    AvoidRepeat: 0
+    Delay: 0
+    Loop: 0
+    RandomizeLoop: 0
+    PlayOnAwake: 0
+    Mute: 0
+    PlayCalled: 0
+  - Name: O_namaHuruf
+    AudioSource: {fileID: 3806183619362461653}
+    AudioClips:
+    - {fileID: 8300000, guid: 19f4a80b2bcdf1344a55381eac081572, type: 3}
+    Output: {fileID: -1597818409009808443, guid: 2f251a96c7a2cc642b77e28dee1310f1,
+      type: 2}
+    MinVolume: 1
+    MaxVolume: 1
+    MinPitch: 0.96
+    MaxPitch: 1
+    StereoPan: 0
+    DelayTime: 0
+    RandomizeDelay: 0
+    AvoidRepeat: 0
+    Delay: 0
+    Loop: 0
+    RandomizeLoop: 0
+    PlayOnAwake: 0
+    Mute: 0
+    PlayCalled: 0
+  - Name: P_namaHuruf
+    AudioSource: {fileID: 3806183619362461653}
+    AudioClips:
+    - {fileID: 8300000, guid: 53f9e6f4a7abd0441a72fad062c27dec, type: 3}
+    Output: {fileID: -1597818409009808443, guid: 2f251a96c7a2cc642b77e28dee1310f1,
+      type: 2}
+    MinVolume: 1
+    MaxVolume: 1
+    MinPitch: 0.96
+    MaxPitch: 1
+    StereoPan: 0
+    DelayTime: 0
+    RandomizeDelay: 0
+    AvoidRepeat: 0
+    Delay: 0
+    Loop: 0
+    RandomizeLoop: 0
+    PlayOnAwake: 0
+    Mute: 0
+    PlayCalled: 0
+  - Name: Q_namaHuruf
+    AudioSource: {fileID: 3806183619362461653}
+    AudioClips:
+    - {fileID: 8300000, guid: 94ad87579494f9743a7e1e8e1a5ca4c3, type: 3}
+    Output: {fileID: -1597818409009808443, guid: 2f251a96c7a2cc642b77e28dee1310f1,
+      type: 2}
+    MinVolume: 1
+    MaxVolume: 1
+    MinPitch: 0.96
+    MaxPitch: 1
+    StereoPan: 0
+    DelayTime: 0
+    RandomizeDelay: 0
+    AvoidRepeat: 0
+    Delay: 0
+    Loop: 0
+    RandomizeLoop: 0
+    PlayOnAwake: 0
+    Mute: 0
+    PlayCalled: 0
+  - Name: R_namaHuruf
+    AudioSource: {fileID: 3806183619362461653}
+    AudioClips:
+    - {fileID: 8300000, guid: 9201fdfff6fd5af48a619f0d093341f7, type: 3}
+    Output: {fileID: -1597818409009808443, guid: 2f251a96c7a2cc642b77e28dee1310f1,
+      type: 2}
+    MinVolume: 1
+    MaxVolume: 1
+    MinPitch: 0.96
+    MaxPitch: 1
+    StereoPan: 0
+    DelayTime: 0
+    RandomizeDelay: 0
+    AvoidRepeat: 0
+    Delay: 0
+    Loop: 0
+    RandomizeLoop: 0
+    PlayOnAwake: 0
+    Mute: 0
+    PlayCalled: 0
+  - Name: S_namaHuruf
+    AudioSource: {fileID: 3806183619362461653}
+    AudioClips:
+    - {fileID: 8300000, guid: 2b8d630f7bf0e4045b68ffb9286e545a, type: 3}
+    Output: {fileID: -1597818409009808443, guid: 2f251a96c7a2cc642b77e28dee1310f1,
+      type: 2}
+    MinVolume: 1
+    MaxVolume: 1
+    MinPitch: 0.96
+    MaxPitch: 1
+    StereoPan: 0
+    DelayTime: 0
+    RandomizeDelay: 0
+    AvoidRepeat: 0
+    Delay: 0
+    Loop: 0
+    RandomizeLoop: 0
+    PlayOnAwake: 0
+    Mute: 0
+    PlayCalled: 0
+  - Name: T_namaHuruf
+    AudioSource: {fileID: 3806183619362461653}
+    AudioClips:
+    - {fileID: 8300000, guid: ae6b46329654e9142ba12ea96a5512a7, type: 3}
+    Output: {fileID: -1597818409009808443, guid: 2f251a96c7a2cc642b77e28dee1310f1,
+      type: 2}
+    MinVolume: 1
+    MaxVolume: 1
+    MinPitch: 0.96
+    MaxPitch: 1
+    StereoPan: 0
+    DelayTime: 0
+    RandomizeDelay: 0
+    AvoidRepeat: 0
+    Delay: 0
+    Loop: 0
+    RandomizeLoop: 0
+    PlayOnAwake: 0
+    Mute: 0
+    PlayCalled: 0
+  - Name: U_namaHuruf
+    AudioSource: {fileID: 3806183619362461653}
+    AudioClips:
+    - {fileID: 8300000, guid: a98ebf7d4c1635d479220ac63cd88a6b, type: 3}
+    Output: {fileID: -1597818409009808443, guid: 2f251a96c7a2cc642b77e28dee1310f1,
+      type: 2}
+    MinVolume: 1
+    MaxVolume: 1
+    MinPitch: 0.96
+    MaxPitch: 1
+    StereoPan: 0
+    DelayTime: 0
+    RandomizeDelay: 0
+    AvoidRepeat: 0
+    Delay: 0
+    Loop: 0
+    RandomizeLoop: 0
+    PlayOnAwake: 0
+    Mute: 0
+    PlayCalled: 0
+  - Name: V_namaHuruf
+    AudioSource: {fileID: 3806183619362461653}
+    AudioClips:
+    - {fileID: 8300000, guid: a75d45a1648c73c498c2ddccad1fb68a, type: 3}
+    Output: {fileID: -1597818409009808443, guid: 2f251a96c7a2cc642b77e28dee1310f1,
+      type: 2}
+    MinVolume: 1
+    MaxVolume: 1
+    MinPitch: 0.96
+    MaxPitch: 1
+    StereoPan: 0
+    DelayTime: 0
+    RandomizeDelay: 0
+    AvoidRepeat: 0
+    Delay: 0
+    Loop: 0
+    RandomizeLoop: 0
+    PlayOnAwake: 0
+    Mute: 0
+    PlayCalled: 0
+  - Name: W_namaHuruf
+    AudioSource: {fileID: 3806183619362461653}
+    AudioClips:
+    - {fileID: 8300000, guid: fc6ff9f8406ad824597f6039a7e1daed, type: 3}
+    Output: {fileID: -1597818409009808443, guid: 2f251a96c7a2cc642b77e28dee1310f1,
+      type: 2}
+    MinVolume: 1
+    MaxVolume: 1
+    MinPitch: 0.96
+    MaxPitch: 1
+    StereoPan: 0
+    DelayTime: 0
+    RandomizeDelay: 0
+    AvoidRepeat: 0
+    Delay: 0
+    Loop: 0
+    RandomizeLoop: 0
+    PlayOnAwake: 0
+    Mute: 0
+    PlayCalled: 0
+  - Name: X_namaHuruf
+    AudioSource: {fileID: 3806183619362461653}
+    AudioClips:
+    - {fileID: 8300000, guid: 77ef9e7351c290c41bc9e82e97bfa21f, type: 3}
+    Output: {fileID: -1597818409009808443, guid: 2f251a96c7a2cc642b77e28dee1310f1,
+      type: 2}
+    MinVolume: 1
+    MaxVolume: 1
+    MinPitch: 0.96
+    MaxPitch: 1
+    StereoPan: 0
+    DelayTime: 0
+    RandomizeDelay: 0
+    AvoidRepeat: 0
+    Delay: 0
+    Loop: 0
+    RandomizeLoop: 0
+    PlayOnAwake: 0
+    Mute: 0
+    PlayCalled: 0
+  - Name: Y_namaHuruf
+    AudioSource: {fileID: 3806183619362461653}
+    AudioClips:
+    - {fileID: 8300000, guid: 942b638b5a243924f9dffd83249faa36, type: 3}
+    Output: {fileID: -1597818409009808443, guid: 2f251a96c7a2cc642b77e28dee1310f1,
+      type: 2}
+    MinVolume: 1
+    MaxVolume: 1
+    MinPitch: 0.96
+    MaxPitch: 1
+    StereoPan: 0
+    DelayTime: 0
+    RandomizeDelay: 0
+    AvoidRepeat: 0
+    Delay: 0
+    Loop: 0
+    RandomizeLoop: 0
+    PlayOnAwake: 0
+    Mute: 0
+    PlayCalled: 0
+  - Name: Z_namaHuruf
+    AudioSource: {fileID: 3806183619362461653}
+    AudioClips:
+    - {fileID: 8300000, guid: 15081bbd4cd16344283e05d94aa307bc, type: 3}
+    Output: {fileID: -1597818409009808443, guid: 2f251a96c7a2cc642b77e28dee1310f1,
+      type: 2}
+    MinVolume: 1
+    MaxVolume: 1
+    MinPitch: 0.96
+    MaxPitch: 1
+    StereoPan: 0
+    DelayTime: 0
+    RandomizeDelay: 0
+    AvoidRepeat: 0
+    Delay: 0
+    Loop: 0
+    RandomizeLoop: 0
+    PlayOnAwake: 0
+    Mute: 0
+    PlayCalled: 0
+  - Name: PuzzleBG_music
+    AudioSource: {fileID: 3806183619503991038}
+    AudioClips:
+    - {fileID: 8300000, guid: 04f95ddf886752448bbf6f6e35fa756f, type: 3}
+    Output: {fileID: 5191891866984223478, guid: 2f251a96c7a2cc642b77e28dee1310f1,
+      type: 2}
+    MinVolume: 0.7
+    MaxVolume: 0.7
+    MinPitch: 1.2
+    MaxPitch: 1.2
+    StereoPan: 0
+    DelayTime: 0
+    RandomizeDelay: 0
+    AvoidRepeat: 0
+    Delay: 0
+    Loop: 1
+    RandomizeLoop: 0
+    PlayOnAwake: 0
+    Mute: 0
+    PlayCalled: 0
+  - Name: RoundWin
+    AudioSource: {fileID: 3526691757751502988}
+    AudioClips:
+    - {fileID: 8300000, guid: 271c700e7a5536a43a0541ad3b760915, type: 3}
+    Output: {fileID: 6791414538751625840, guid: 2f251a96c7a2cc642b77e28dee1310f1,
+      type: 2}
+    MinVolume: 0.8
+    MaxVolume: 0.8
+    MinPitch: 1
+    MaxPitch: 1
+    StereoPan: 0
+    DelayTime: 0
+    RandomizeDelay: 0
+    AvoidRepeat: 0
+    Delay: 0
+    Loop: 0
+    RandomizeLoop: 0
+    PlayOnAwake: 0
+    Mute: 0
+    PlayCalled: 0
+  - Name: Button_Next
+    AudioSource: {fileID: 3806183617575802077}
+    AudioClips:
+    - {fileID: 8300000, guid: 740beea639c227447aeefe7e32ae25eb, type: 3}
+    Output: {fileID: -1198201335560138185, guid: 2f251a96c7a2cc642b77e28dee1310f1,
+      type: 2}
+    MinVolume: 0.8
+    MaxVolume: 0.8
+    MinPitch: 1
+    MaxPitch: 1
+    StereoPan: 0
+    DelayTime: 0
+    RandomizeDelay: 0
+    AvoidRepeat: 0
+    Delay: 0
+    Loop: 0
+    RandomizeLoop: 0
+    PlayOnAwake: 0
+    Mute: 0
+    PlayCalled: 0
+  - Name: SFX_Error
+    AudioSource: {fileID: 3526691757751502988}
+    AudioClips:
+    - {fileID: 8300000, guid: 5613b35a3aa75db48b10fdc6ed2abec6, type: 3}
+    Output: {fileID: 6791414538751625840, guid: 2f251a96c7a2cc642b77e28dee1310f1,
+      type: 2}
+    MinVolume: 1
+    MaxVolume: 1
+    MinPitch: 0.8
+    MaxPitch: 1.2
+    StereoPan: 0
+    DelayTime: 0
+    RandomizeDelay: 0
+    AvoidRepeat: 0
+    Delay: 0
+    Loop: 0
+    RandomizeLoop: 0
+    PlayOnAwake: 0
+    Mute: 0
+    PlayCalled: 0
+  - Name: LobbyBGM
+    AudioSource: {fileID: 3806183619503991038}
+    AudioClips:
+    - {fileID: 8300000, guid: 46adbba87000db843af8fc138325df9c, type: 3}
+    Output: {fileID: 5191891866984223478, guid: 2f251a96c7a2cc642b77e28dee1310f1,
+      type: 2}
+    MinVolume: 0.7
+    MaxVolume: 0.7
+    MinPitch: 1
+    MaxPitch: 1
+    StereoPan: 0
+    DelayTime: 0
+    RandomizeDelay: 0
+    AvoidRepeat: 0
+    Delay: 0
+    Loop: 1
+    RandomizeLoop: 0
+    PlayOnAwake: 0
+    Mute: 0
+    PlayCalled: 0
+  - Name: MainMenuBGM
+    AudioSource: {fileID: 3806183619503991038}
+    AudioClips:
+    - {fileID: 8300000, guid: cb7844a9d9c32f3408fa3088b578000b, type: 3}
+    Output: {fileID: 5191891866984223478, guid: 2f251a96c7a2cc642b77e28dee1310f1,
+      type: 2}
+    MinVolume: 0.7
+    MaxVolume: 0.7
+    MinPitch: 1
+    MaxPitch: 1
+    StereoPan: 0
+    DelayTime: 0
+    RandomizeDelay: 0
+    AvoidRepeat: 0
+    Delay: 0
+    Loop: 1
+    RandomizeLoop: 0
+    PlayOnAwake: 0
+    Mute: 0
+    PlayCalled: 0
+  - Name: MainMenuStartButtonClicked
+    AudioSource: {fileID: 3806183617575802077}
+    AudioClips:
+    - {fileID: 8300000, guid: d1d52b7b59809a64197f7927f52b8513, type: 3}
+    Output: {fileID: -1198201335560138185, guid: 2f251a96c7a2cc642b77e28dee1310f1,
+      type: 2}
+    MinVolume: 0.35
+    MaxVolume: 0.35
+    MinPitch: 1
+    MaxPitch: 1
+    StereoPan: 0
+    DelayTime: 0
+    RandomizeDelay: 0
+    AvoidRepeat: 0
+    Delay: 0
+    Loop: 0
+    RandomizeLoop: 0
+    PlayOnAwake: 0
+    Mute: 0
+    PlayCalled: 0
+  - Name: SFX_CorrectLetter
+    AudioSource: {fileID: 3806183617575802077}
+    AudioClips:
+    - {fileID: 8300000, guid: fdf871b8ef997c840b104cd26a0b75e5, type: 3}
+    Output: {fileID: -1198201335560138185, guid: 2f251a96c7a2cc642b77e28dee1310f1,
+      type: 2}
+    MinVolume: 0.8
+    MaxVolume: 0.8
+    MinPitch: 1.3
+    MaxPitch: 1.3
+    StereoPan: 0
+    DelayTime: 0
+    RandomizeDelay: 0
+    AvoidRepeat: 0
+    Delay: 0
+    Loop: 0
+    RandomizeLoop: 0
+    PlayOnAwake: 0
+    Mute: 0
+    PlayCalled: 0
+  - Name: SFX_ButtonClicked
+    AudioSource: {fileID: 3806183617575802077}
+    AudioClips:
+    - {fileID: 8300000, guid: 31c680a1f9654f645a962c38dbed7200, type: 3}
+    Output: {fileID: -1198201335560138185, guid: 2f251a96c7a2cc642b77e28dee1310f1,
+      type: 2}
+    MinVolume: 1
+    MaxVolume: 1
+    MinPitch: 1.1
+    MaxPitch: 1.1
+    StereoPan: 0
+    DelayTime: 0
+    RandomizeDelay: 0
+    AvoidRepeat: 0
+    Delay: 0
+    Loop: 0
+    RandomizeLoop: 0
+    PlayOnAwake: 0
+    Mute: 0
+    PlayCalled: 0
+  - Name: TimedAttackBGM
+    AudioSource: {fileID: 3806183619503991038}
+    AudioClips:
+    - {fileID: 8300000, guid: 51573438117fc124ead7fde55d4f929a, type: 3}
+    Output: {fileID: 5191891866984223478, guid: 2f251a96c7a2cc642b77e28dee1310f1,
+      type: 2}
+    MinVolume: 0.7
+    MaxVolume: 0.7
+    MinPitch: 1.1
+    MaxPitch: 1.1
+    StereoPan: 0
+    DelayTime: 0
+    RandomizeDelay: 0
+    AvoidRepeat: 0
+    Delay: 0
+    Loop: 1
+    RandomizeLoop: 0
+    PlayOnAwake: 0
+    Mute: 0
+    PlayCalled: 0
+  - Name: SFX_ButtonBack
+    AudioSource: {fileID: 3806183617575802077}
+    AudioClips:
+    - {fileID: 8300000, guid: e3da57dd9be47e748b7f74f422297b63, type: 3}
+    Output: {fileID: -1198201335560138185, guid: 2f251a96c7a2cc642b77e28dee1310f1,
+      type: 2}
+    MinVolume: 1
+    MaxVolume: 1
+    MinPitch: 1.1
+    MaxPitch: 1.1
+    StereoPan: 0
+    DelayTime: 0
+    RandomizeDelay: 0
+    AvoidRepeat: 0
+    Delay: 0
+    Loop: 0
+    RandomizeLoop: 0
+    PlayOnAwake: 0
+    Mute: 0
+    PlayCalled: 0
+  - Name: SFX_Kaching
+    AudioSource: {fileID: 3806183617575802077}
+    AudioClips:
+    - {fileID: 8300000, guid: 7d2a2fde43c89154da10350d156ef258, type: 3}
+    Output: {fileID: -1198201335560138185, guid: 2f251a96c7a2cc642b77e28dee1310f1,
+      type: 2}
+    MinVolume: 1
+    MaxVolume: 1
+    MinPitch: 1
+    MaxPitch: 1
+    StereoPan: 0
+    DelayTime: 0
+    RandomizeDelay: 0
+    AvoidRepeat: 0
+    Delay: 0
+    Loop: 0
+    RandomizeLoop: 0
+    PlayOnAwake: 0
+    Mute: 0
+    PlayCalled: 0
+  - Name: SFX_FailedBuy
+    AudioSource: {fileID: 3806183617575802077}
+    AudioClips:
+    - {fileID: 8300000, guid: 5613b35a3aa75db48b10fdc6ed2abec6, type: 3}
+    Output: {fileID: -1198201335560138185, guid: 2f251a96c7a2cc642b77e28dee1310f1,
+      type: 2}
+    MinVolume: 1
+    MaxVolume: 1
+    MinPitch: 0.6
+    MaxPitch: 0.6
+    StereoPan: 0
+    DelayTime: 0
+    RandomizeDelay: 0
+    AvoidRepeat: 0
+    Delay: 0
+    Loop: 0
+    RandomizeLoop: 0
+    PlayOnAwake: 0
+    Mute: 0
+    PlayCalled: 0
+  - Name: SFX_PageFlip
+    AudioSource: {fileID: 3806183617575802077}
+    AudioClips:
+    - {fileID: 8300000, guid: e1fb14471150c124ab57ea27a0d74e31, type: 3}
+    - {fileID: 8300000, guid: 637c057f6ff61dc419b78de9fdb44e11, type: 3}
+    - {fileID: 8300000, guid: 5c5da2a658ff89d41a99a37adf2dc2b0, type: 3}
+    Output: {fileID: -1198201335560138185, guid: 2f251a96c7a2cc642b77e28dee1310f1,
+      type: 2}
+    MinVolume: 1
+    MaxVolume: 1
+    MinPitch: 1
+    MaxPitch: 1
+    StereoPan: 0
+    DelayTime: 0
+    RandomizeDelay: 0
+    AvoidRepeat: 1
+    Delay: 0
+    Loop: 0
+    RandomizeLoop: 0
+    PlayOnAwake: 0
+    Mute: 0
+    PlayCalled: 0
+--- !u!1 &3806183619362461642
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3806183619362461652}
+  - component: {fileID: 3806183619362461653}
+  m_Layer: 0
+  m_Name: Voice Over AudioSource
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3806183619362461652
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3806183619362461642}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3806183618650685585}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &3806183619362461653
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3806183619362461642}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!1 &3806183619503991039
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3806183619503991033}
+  - component: {fileID: 3806183619503991038}
+  m_Layer: 0
+  m_Name: BGMusic AudioSource
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3806183619503991033
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3806183619503991039}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3806183618650685585}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &3806183619503991038
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3806183619503991039}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4

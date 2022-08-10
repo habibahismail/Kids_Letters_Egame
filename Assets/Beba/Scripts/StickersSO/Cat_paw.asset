@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81409ee0362ae7f448942e98f1d97623, type: 3}
+  m_Name: Cat_paw
+  m_EditorClassIdentifier: 
+  id: 47627a3ba2d2e474c9e0d5e8e3dcce23
+  stickerName: catsticker_catpaw
+  price: 220
+  stickerImage: {fileID: 8734858748467530605, guid: b381fca7e8ade3544983eacdddabf436,
+    type: 3}
+  series: 0
+  isUnlocked: 0
