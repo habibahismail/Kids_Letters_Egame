@@ -963,7 +963,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 25
+  m_AdditionalShaderChannelsFlag: 1
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -1047,7 +1047,7 @@ MonoBehaviour:
 
 
     ----
-    Mod Zen
+    Zen
 
 
     Boleh dimain dengan tenang.
@@ -1056,8 +1056,8 @@ MonoBehaviour:
     ---- Cabaran Bermasa
 
 
-    Dalam
-    mod ini, anda perlu menjawap sebanyak mana soalan yang boleh dalam masa 1 minit.'
+    Jawab
+    sebanyak mana soalan yang boleh dalam masa 1 minit.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0e3f27f5f31f960418dbf9c9b024c3f3, type: 2}
   m_sharedMaterial: {fileID: 3298940707010124522, guid: 0e3f27f5f31f960418dbf9c9b024c3f3,
@@ -1607,7 +1607,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 25
+  m_AdditionalShaderChannelsFlag: 1
   m_SortingLayerID: 0
   m_SortingOrder: 1
   m_TargetDisplay: 0
@@ -5101,7 +5101,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: mod zen
+  m_text: zen
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0e3f27f5f31f960418dbf9c9b024c3f3, type: 2}
   m_sharedMaterial: {fileID: 3298940707010124522, guid: 0e3f27f5f31f960418dbf9c9b024c3f3,

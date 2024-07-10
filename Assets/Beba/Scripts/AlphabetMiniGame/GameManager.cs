@@ -80,14 +80,6 @@ namespace bebaSpace.AlphabetMiniGame
             GameEvents.GemValueChanged += UpdateGem;
         }
 
-        private void Update()
-        {
-            if (Input.GetKeyDown(KeyCode.M))
-            {
-                UpdateGem(100);
-            }
-        }
-
         private void Save()
         {
             saveGameSticker.Clear();
