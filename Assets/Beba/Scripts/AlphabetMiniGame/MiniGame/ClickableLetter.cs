@@ -16,6 +16,11 @@ namespace bebaSpace.AlphabetMiniGame
         private Animator animator;
         private Sequence sequence;
 
+        private void OnDisable()
+        {
+            KillDoTweenSequence();
+        }
+
 
         private void Start()
         {
